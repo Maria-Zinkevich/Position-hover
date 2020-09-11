@@ -1,0 +1,70 @@
+.figure {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+}
+
+.figure__circle {
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+    background-color: #ef1c04;
+}
+
+.figure__circle:hover {
+    background-color: #33E91E;
+    z-index: 5;
+}
+
+ .figure__square-huge {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
+    background-color: #00a3ff;
+}
+
+.figure__square-huge:hover {
+    background-color: #98be77;
+    z-index: 10;
+}
+
+.figure__square-tiny {
+    position: absolute;
+    top: 32%;
+    left: 32.5%;
+    height: 35%;
+    width: 35%;
+    border-radius: 10%;
+    background-color: #f8bb00;
+} 
+
+ .figure__circle--top-left {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.figure__circle--top-right {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.figure__circle--bottom-left {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.figure__circle--bottom-right {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+} 
+
+
+
+
+
